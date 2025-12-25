@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Lock files
+.lockb
+.npm
+.yarn
+
+# Directory for instrumented libs collected by coverage providers
+# These should always be ignored as they are only useful for testing
+# and are not part of the actual application.
+coverage
+.nyc_output
+
+# Environments
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.project
+.settings
+.vs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# Node.js
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# TypeScript
+*.js.map
+*.d.ts
+
+# Jest
+.jest/
+
+# Project-specific ignores
+graphql/*/package-lock.json
+typescript/*/package-lock.json
